@@ -1,0 +1,16 @@
+class User:
+    def __init__(self, name, age, gender):
+        self.name = name
+        self.age = age
+        self.gender = gender
+
+    def display_info(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+        print("Gender:", self.gender)
+
+# Creating a user object with the provided details
+user1 = User("Muhammad Awais Altaf", 18, "male")
+
+# Displaying user information
+user1.display_info()
